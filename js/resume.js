@@ -34,6 +34,8 @@ $('.toggle').on('click', function() {
       console.log("Changing to 0 rem");
     }
 
+    
+
 
 });
 

@@ -71,6 +71,7 @@ h2 {
 }
 
 .navbar-toggler-icon {
+  border-radius: 20%;
   border: 0px;
   margin-left:10rem;
 }
@@ -224,7 +225,7 @@ a:hover, a:focus, a:active {
 }
 
 .sidebar-collapsed .toggle {
-    right:-2px;
+    right:-6px;
     background-color: #0B3C5D;
      transform:translateX(100%);   
     -webkit-transform:translateX(100%);   
