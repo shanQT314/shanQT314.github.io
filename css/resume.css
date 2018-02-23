@@ -1,5 +1,5 @@
 body {
-  font-family: serif;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: serif;
+  font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -222,4 +222,47 @@ a:hover, a:focus, a:active {
     background-color: #0B3C5D;
      transform:translateX(100%);   
     -webkit-transform:translateX(100%);   
+}
+
+
+.list-inline-item:hover {
+    animation: jelly .4s;
+    -webkit-animation: jelly .4s;
+}
+
+@keyframes jelly {
+    25% {
+        transform: scaleX(1.2);
+        -webkit-transform: scaleX(1.2);
+    }
+    50% {
+        transform: scaleX(0.8);
+        -webkit-transform: scaleX(0.8);
+    }
+    75% {
+        transform: scaleX(1.1);
+        -webkit-transform: scaleX(1.1);
+    }
+    100% {
+        transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+    }
+}
+@-webkit-keyframes jelly {
+    25% {
+        transform: scaleX(1.2);
+        -webkit-transform: scaleX(1.2);
+    }
+    50% {
+        transform: scaleX(0.8);
+        -webkit-transform: scaleX(0.8);
+    }
+    75% {
+        transform: scaleX(1.1);
+        -webkit-transform: scaleX(1.1);
+    }
+    100% {
+        transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+    }
 }
