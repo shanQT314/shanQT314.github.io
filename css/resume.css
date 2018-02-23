@@ -2,6 +2,7 @@ body {
   font-family: 'Saira Extra Condensed',sans-serif;
   padding-top: 54px;
   color: #868e96;
+  font-size: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -39,6 +40,10 @@ h2 {
   font-size: 1.35rem;
 }
 
+.mb-5 {
+  font-size:1.5rem;
+}
+
 .list-social-icons a {
   color: #328CC1;
 }
@@ -60,6 +65,7 @@ h2 {
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
 }
