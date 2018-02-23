@@ -1,5 +1,5 @@
 body {
-  font-family: 'Century Gothic', serif;
+  font-family: serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -35,7 +35,7 @@ h2 {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: serif;
   font-size: 1.35rem;
 }
 
