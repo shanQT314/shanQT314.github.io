@@ -2,14 +2,17 @@ body {
   font-family: 'Saira Extra Condensed',sans-serif;
   padding-top: 54px;
   color: #868e96;
-  font-size: 1.5rem;
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 15rem;
+    padding-left: 17rem;
   }
+}
+
+#about {
+	max-width:90%!important;
 }
 
 h1,
@@ -31,6 +34,15 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
 }
 
 .subheading {
@@ -76,18 +88,26 @@ h2 {
   margin-left:10rem;
 }
 
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
-    width: 15rem;
+    width: 17rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
@@ -98,13 +118,22 @@ h2 {
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
   }
@@ -118,12 +147,16 @@ h2 {
   .nav-item:hover {
     color: #D9B310;
   }
+
+  .typewriter {
+  	max-width: 18rem!important;
+  }
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
+  max-width: 75rem;
 }
 
 section.resume-section .resume-item .resume-date {
@@ -251,4 +284,49 @@ a:hover, a:focus, a:active {
     }
 }
 
+
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("img/para.jpg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("img/para2.jpg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax3 { 
+    /* The image used */
+    background-image: url("img/para3.jpg");
+
+    /* Set a specific height */
+    height: auto; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
